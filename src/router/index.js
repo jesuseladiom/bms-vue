@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Clients from '../pages/Clients.vue';
-import Finance from '../pages/Finance.vue';
-import RH from '../pages/RH.vue';
+import Clients from '../Pages/Clients.vue';
+import Finance from '../Pages/Finance.vue';
+import Rh from '../Pages/Rh.vue';
 
 const routes = [
   { path: '/clients', component: Clients },
   { path: '/finance', component: Finance },
-  { path: '/rh', component: RH },
+  { path: '/rh', component: Rh },
 ];
 
 const router = createRouter({
